@@ -16,8 +16,8 @@ public class NotePolymorphismMain {
 		a1.a();
 		b1.a();
 		a2.a(); // 껍데기는 NotePolymorphismA인데 알맹이는 NotePolymorphismB에 있는 것을 쓰기 때문에
-				// NotePolymorphismA에 존재하는 NotePolymorphismB의 내용만 호출 가능(상속, 오버라이딩)
-				// NotePolymorphismB에 있는 a()를 호출
+				// NotePolymorphismA에 존재하는 NotePolymorphismB의 내용만 호출이 가능하다(상속, 오버라이딩)
+				// NotePolymorphismB에 있는 a()를 호출하게된다.
 		
 		b1.b();
 		
