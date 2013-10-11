@@ -4,7 +4,7 @@ import com.uniwill.note.util.NoteSingletonUtil;
 
 public class NoteSingletonService {
 	public void test() {
-		NoteSingletonUtil su = NoteSingletonUtil.getInstance();
+		NoteSingletonUtil su = NoteSingletonUtil.getInstance(); // get address
 		
 		System.out.println("[2]" + su.flag);
 		
